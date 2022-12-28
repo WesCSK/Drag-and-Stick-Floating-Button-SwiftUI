@@ -12,6 +12,7 @@
 		207537EC295C8BF900223E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207537EB295C8BF900223E84 /* Assets.xcassets */; };
 		207537EF295C8BF900223E84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207537EE295C8BF900223E84 /* Preview Assets.xcassets */; };
 		207537F7295C8C4400223E84 /* ChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207537F6295C8C4400223E84 /* ChatButton.swift */; };
+		207537F9295C8E5C00223E84 /* DraggableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207537F8295C8E5C00223E84 /* DraggableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		207537EB295C8BF900223E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		207537EE295C8BF900223E84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		207537F6295C8C4400223E84 /* ChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatButton.swift; sourceTree = "<group>"; };
+		207537F8295C8E5C00223E84 /* DraggableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				207537F6295C8C4400223E84 /* ChatButton.swift */,
+				207537F8295C8E5C00223E84 /* DraggableButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				207537F7295C8C4400223E84 /* ChatButton.swift in Sources */,
+				207537F9295C8E5C00223E84 /* DraggableButton.swift in Sources */,
 				207537EA295C8BF800223E84 /* ContentView.swift in Sources */,
 				207537E8295C8BF800223E84 /* Drag_and_Stick_Floating_ButtonApp.swift in Sources */,
 			);

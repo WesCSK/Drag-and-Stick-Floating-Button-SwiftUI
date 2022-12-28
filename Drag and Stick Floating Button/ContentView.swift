@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            DraggableButton()
             HStack{
                 Spacer()
                 
@@ -32,6 +33,7 @@ struct ContentView: View {
             }
             
             // TODO: - Add floating Button
+            
             
         }
         .background(

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ChatButton: View {
+    
+    @State var opacityState: Double = 1
+    
     var body: some View {
         Button {
             
@@ -22,6 +25,19 @@ struct ChatButton: View {
                         .resizable()
                         .frame(width: 25, height: 25)
                 }
+        }
+        .disabled(true)
+        .opacity(opacityState)
+        .onLongPressGesture(minimumDuration: 0.2) {
+            print("press")
+            withAnimation(.linear(duration: 0.1)) {
+                opacityState = 0.2
+            }
+            
+            withAnimation(.linear(duration: 0.1).delay(0.1)) {
+                opacityState = 1
+            }
+            
         }
     }
 }
