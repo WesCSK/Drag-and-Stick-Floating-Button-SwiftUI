@@ -36,7 +36,6 @@ struct ContentView: View {
         }
         .background(
             Color("systemBackground")
-        
         )
     }
 }

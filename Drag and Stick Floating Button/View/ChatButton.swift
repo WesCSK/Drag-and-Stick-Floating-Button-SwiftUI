@@ -10,14 +10,13 @@ import SwiftUI
 struct ChatButton: View {
     var body: some View {
         Button {
-            
+            // BUTTON ACTION
         } label: {
             Circle()
                 .frame(width: 50, height: 50)
                 .foregroundColor(.white)
-                .shadow(radius: 3)
+                .shadow(radius: 1)
                 .overlay {
-
                     Image("chat")
                         .resizable()
                         .frame(width: 25, height: 25)
