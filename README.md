@@ -4,7 +4,7 @@
 
 # OTP Textfield in SwiftUI |  OTP Pin Fields
 
-In this [tutorial](https://youtu.be/0bg7x37p_JU), you'll learn how to create an OTP Textfield! In this video, we will cover the step-by-step process of building a custom OTP text field that can be used in your SwiftUI projects.
+Learn how to create a draggable and movable floating button like AssistiveTouch in SwiftUI. In this video, you will create a DraggableButton view which is draggable and movable by using the DragGesture() and then, we will use position modifier to change the position and bring it back to the correct position. 
 
 - [Completed Source Code](https://github.com/WesCSK/Drag-and-Stick-Floating-Button-SwiftUI/tree/complete)
 
